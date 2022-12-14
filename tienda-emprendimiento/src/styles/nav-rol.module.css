@@ -1,0 +1,39 @@
+:root{
+    --fuente-principal: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.nav{
+    border-bottom: 1px solid black;
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--fuente-principal);
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3rem;
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+}
+
+.profile{
+    position: relative;
+    width: auto;
+    left: 95%;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.link:hover{
+    border-bottom: 3px solid blue;
+}
